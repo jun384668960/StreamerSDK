@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250E69551F04A07200AB26C9 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 250E69411F04A07200AB26C9 /* amf.c */; };
+		250E69561F04A07200AB26C9 /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 250E69481F04A07200AB26C9 /* hashswf.c */; };
+		250E69571F04A07200AB26C9 /* i386.c in Sources */ = {isa = PBXBuildFile; fileRef = 250E694A1F04A07200AB26C9 /* i386.c */; };
+		250E69581F04A07200AB26C9 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 250E694E1F04A07200AB26C9 /* log.c */; };
+		250E695A1F04A07200AB26C9 /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = 250E69511F04A07200AB26C9 /* parseurl.c */; };
+		250E695B1F04A07200AB26C9 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 250E69521F04A07200AB26C9 /* rtmp.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25D1834F1ED03A7900337FF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		250E69411F04A07200AB26C9 /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amf.c; sourceTree = "<group>"; };
+		250E69421F04A07200AB26C9 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		250E69431F04A07200AB26C9 /* bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytes.h; sourceTree = "<group>"; };
+		250E69451F04A07200AB26C9 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		250E69461F04A07200AB26C9 /* dhgroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dhgroups.h; sourceTree = "<group>"; };
+		250E69471F04A07200AB26C9 /* handshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handshake.h; sourceTree = "<group>"; };
+		250E69481F04A07200AB26C9 /* hashswf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashswf.c; sourceTree = "<group>"; };
+		250E69491F04A07200AB26C9 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		250E694A1F04A07200AB26C9 /* i386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = i386.c; sourceTree = "<group>"; };
+		250E694E1F04A07200AB26C9 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		250E694F1F04A07200AB26C9 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		250E69511F04A07200AB26C9 /* parseurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parseurl.c; sourceTree = "<group>"; };
+		250E69521F04A07200AB26C9 /* rtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtmp.c; sourceTree = "<group>"; };
+		250E69531F04A07200AB26C9 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		250E69541F04A07200AB26C9 /* rtmp_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp_sys.h; sourceTree = "<group>"; };
+		25D183511ED03A7900337FF6 /* librtmp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librtmp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D1834E1ED03A7900337FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250E69401F04A07200AB26C9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				250E69411F04A07200AB26C9 /* amf.c */,
+				250E69421F04A07200AB26C9 /* amf.h */,
+				250E69431F04A07200AB26C9 /* bytes.h */,
+				250E69451F04A07200AB26C9 /* dh.h */,
+				250E69461F04A07200AB26C9 /* dhgroups.h */,
+				250E69471F04A07200AB26C9 /* handshake.h */,
+				250E69481F04A07200AB26C9 /* hashswf.c */,
+				250E69491F04A07200AB26C9 /* http.h */,
+				250E694A1F04A07200AB26C9 /* i386.c */,
+				250E694E1F04A07200AB26C9 /* log.c */,
+				250E694F1F04A07200AB26C9 /* log.h */,
+				250E69511F04A07200AB26C9 /* parseurl.c */,
+				250E69521F04A07200AB26C9 /* rtmp.c */,
+				250E69531F04A07200AB26C9 /* rtmp.h */,
+				250E69541F04A07200AB26C9 /* rtmp_sys.h */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		25D183481ED03A7900337FF6 = {
+			isa = PBXGroup;
+			children = (
+				250E69401F04A07200AB26C9 /* src */,
+				25D183521ED03A7900337FF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25D183521ED03A7900337FF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D183511ED03A7900337FF6 /* librtmp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D183501ED03A7900337FF6 /* rtmp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D1835A1ED03A7900337FF6 /* Build configuration list for PBXNativeTarget "rtmp" */;
+			buildPhases = (
+				25D1834D1ED03A7900337FF6 /* Sources */,
+				25D1834E1ED03A7900337FF6 /* Frameworks */,
+				25D1834F1ED03A7900337FF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rtmp;
+			productName = rtmp;
+			productReference = 25D183511ED03A7900337FF6 /* librtmp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D183491ED03A7900337FF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = protruly;
+				TargetAttributes = {
+					25D183501ED03A7900337FF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ND68S4T8A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25D1834C1ED03A7900337FF6 /* Build configuration list for PBXProject "rtmp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25D183481ED03A7900337FF6;
+			productRefGroup = 25D183521ED03A7900337FF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D183501ED03A7900337FF6 /* rtmp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D1834D1ED03A7900337FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250E695B1F04A07200AB26C9 /* rtmp.c in Sources */,
+				250E695A1F04A07200AB26C9 /* parseurl.c in Sources */,
+				250E69581F04A07200AB26C9 /* log.c in Sources */,
+				250E69571F04A07200AB26C9 /* i386.c in Sources */,
+				250E69561F04A07200AB26C9 /* hashswf.c in Sources */,
+				250E69551F04A07200AB26C9 /* amf.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25D183581ED03A7900337FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25D183591ED03A7900337FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25D1835B1ED03A7900337FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3ND68S4T8A;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					NO_CRYPTO,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		25D1835C1ED03A7900337FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3ND68S4T8A;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = NO_CRYPTO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D1834C1ED03A7900337FF6 /* Build configuration list for PBXProject "rtmp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D183581ED03A7900337FF6 /* Debug */,
+				25D183591ED03A7900337FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25D1835A1ED03A7900337FF6 /* Build configuration list for PBXNativeTarget "rtmp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D1835B1ED03A7900337FF6 /* Debug */,
+				25D1835C1ED03A7900337FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25D183491ED03A7900337FF6 /* Project object */;
+}

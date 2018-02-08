@@ -1,0 +1,154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		250E69621F04A39300AB26C9 /* .svn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .svn; sourceTree = "<group>"; };
+		250E69631F04A39300AB26C9 /* BasicHashTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicHashTable.cpp; sourceTree = "<group>"; };
+		250E69641F04A39300AB26C9 /* BasicTaskScheduler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicTaskScheduler.cpp; sourceTree = "<group>"; };
+		250E69651F04A39300AB26C9 /* BasicTaskScheduler0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicTaskScheduler0.cpp; sourceTree = "<group>"; };
+		250E69661F04A39300AB26C9 /* BasicUsageEnvironment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicUsageEnvironment.cpp; sourceTree = "<group>"; };
+		250E69671F04A39300AB26C9 /* BasicUsageEnvironment0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicUsageEnvironment0.cpp; sourceTree = "<group>"; };
+		250E69681F04A39300AB26C9 /* DelayQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DelayQueue.cpp; sourceTree = "<group>"; };
+		250E69691F04A39300AB26C9 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		250E696A1F04A39300AB26C9 /* Makefile.head */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.head; sourceTree = "<group>"; };
+		250E696B1F04A39300AB26C9 /* Makefile.tail */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.tail; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		250E695C1F04A39300AB26C9 = {
+			isa = PBXGroup;
+			children = (
+				250E69621F04A39300AB26C9 /* .svn */,
+				250E69631F04A39300AB26C9 /* BasicHashTable.cpp */,
+				250E69641F04A39300AB26C9 /* BasicTaskScheduler.cpp */,
+				250E69651F04A39300AB26C9 /* BasicTaskScheduler0.cpp */,
+				250E69661F04A39300AB26C9 /* BasicUsageEnvironment.cpp */,
+				250E69671F04A39300AB26C9 /* BasicUsageEnvironment0.cpp */,
+				250E69681F04A39300AB26C9 /* DelayQueue.cpp */,
+				250E69691F04A39300AB26C9 /* include */,
+				250E696A1F04A39300AB26C9 /* Makefile.head */,
+				250E696B1F04A39300AB26C9 /* Makefile.tail */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		250E69611F04A39300AB26C9 /* BasicUsageEnvironment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 250E696C1F04A39300AB26C9 /* Build configuration list for PBXLegacyTarget "BasicUsageEnvironment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/protruly_123/Desktop/sdk/librtsp/src/BasicUsageEnvironment;
+			dependencies = (
+			);
+			name = BasicUsageEnvironment;
+			passBuildSettingsInEnvironment = 1;
+			productName = BasicUsageEnvironment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		250E695D1F04A39300AB26C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 250E69601F04A39300AB26C9 /* Build configuration list for PBXProject "BasicUsageEnvironment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 250E695C1F04A39300AB26C9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250E69611F04A39300AB26C9 /* BasicUsageEnvironment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		250E695E1F04A39300AB26C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		250E695F1F04A39300AB26C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		250E696D1F04A39300AB26C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = BasicUsageEnvironment;
+			};
+			name = Debug;
+		};
+		250E696E1F04A39300AB26C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = BasicUsageEnvironment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250E69601F04A39300AB26C9 /* Build configuration list for PBXProject "BasicUsageEnvironment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250E695E1F04A39300AB26C9 /* Debug */,
+				250E695F1F04A39300AB26C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		250E696C1F04A39300AB26C9 /* Build configuration list for PBXLegacyTarget "BasicUsageEnvironment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250E696D1F04A39300AB26C9 /* Debug */,
+				250E696E1F04A39300AB26C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 250E695D1F04A39300AB26C9 /* Project object */;
+}
